@@ -71,6 +71,4 @@ deploy:
   type: rsync
   host: ec2-54-201-234-43.us-west-2.compute.amazonaws.com
   user: ec2-user
-  root: /home/ec2-user
-  port: [22] # Default is 22
-  delete: [true] # Default is true
+  root: /usr/local/blog
