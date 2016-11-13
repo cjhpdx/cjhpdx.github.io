@@ -1,2 +1,0 @@
-# endless-sample-blog
-blog
