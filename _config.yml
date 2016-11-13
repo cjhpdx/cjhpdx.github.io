@@ -68,7 +68,8 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: rsync
-  host: ec2-54-201-234-43.us-west-2.compute.amazonaws.com
-  user: ec2-user
-  root: /usr/local/blog
+  type: git
+  #repo: https://github.com/cjhpdx/endless-sample-blog
+  repo: git@github.com:cjhpdx/endless-sample-blog.git
+  branch: master
+  message: hello world
